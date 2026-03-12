@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akachi Maduako | Salesforce Admin Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="container header-inner">
+        <div>
+          <p class="eyebrow">Portfolio</p>
+          <h1 class="site-title">Akachi Maduako</h1>
+        </div>
+        <nav class="main-nav">
+          <a href="#overview">Overview</a>
+          <a href="#screenshots">Evidence</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-grid">
+          <div>
+            <p class="badge">Salesforce Admin Portfolio Project</p>
+            <h2 class="hero-title">Salesforce Job Application Tracking System</h2>
+            <p class="hero-text">
+              A portfolio case study showing how I designed a custom Salesforce CRM workflow for
+              job application tracking using custom objects, fields, Flow Builder, reports,
+              dashboards, and pipeline management. The project is backed by real screenshots from my
+              Salesforce Developer Edition environment.
+            </p>
+            <div class="hero-buttons">
+              <a href="#screenshots" class="btn btn-primary">View Project Evidence</a>
+              <a href="#experience" class="btn btn-secondary">Salesforce Experience</a>
+            </div>
+          </div>
+
+          <div class="card outcomes-card">
+            <p class="section-label muted">Project Outcomes</p>
+            <ul id="outcomes-list" class="custom-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="overview" class="container section">
+        <div id="sections-grid" class="grid-3"></div>
+      </section>
+
+      <section class="container section">
+        <div class="card">
+          <p class="section-label">Architecture</p>
+          <h3 class="section-title">How the system works</h3>
+          <div id="architecture-steps" class="steps-grid"></div>
+        </div>
+      </section>
+
+      <section id="screenshots" class="container section">
+        <div class="section-header">
+          <p class="section-label">Evidence</p>
+          <h3 class="section-title">Project screenshots and proof of work</h3>
+          <p class="section-text">
+            These screenshots were taken while structuring this portfolio
+            case study.
+          </p>
+        </div>
+        <div id="screenshots-grid" class="grid-2"></div>
+      </section>
+
+      <section class="container section">
+        <div class="grid-2">
+          <article class="card">
+            <p class="section-label">Automation</p>
+            <h3 class="section-subtitle">Flow and workflow logic</h3>
+            <ul class="custom-list blue-dots">
+              <li>Record-triggered flow used for follow-up task creation.</li>
+              <li>Status tracking automation updates the Last Status Change field.</li>
+              <li>Pipeline stages support CRM-style tracking from Applied to Interview Scheduled and beyond.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <p class="section-label">Reporting</p>
+            <h3 class="section-subtitle">Analytics and pipeline visibility</h3>
+            <ul class="custom-list green-dots">
+              <li>Created an Application Pipeline report grouped by Application Status.</li>
+              <li>Used dashboard-style charting to visualize job search workflow progress.</li>
+              <li>Demonstrated the ability to turn operational data into business insight.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="container section">
+        <div class="section-header">
+          <p class="section-label">Skills Demonstrated</p>
+          <h3 class="section-title">Core Salesforce Admin capabilities</h3>
+        </div>
+        <div class="card">
+          <div id="skills-list" class="skills-wrap"></div>
+        </div>
+      </section>
+
+      <section id="experience" class="container section bottom-section">
+        <div class="card gradient-card">
+          <p class="section-label">Applied Experience</p>
+          <h3 class="section-title">Salesforce in security and operations</h3>
+          <p class="section-text wide">
+            In addition to this portfolio project, I used Salesforce in a real operations
+            environment while working in the Security Operations Center at Sentinel Security
+            Services on a Sheraton hotel contract. Salesforce was used as a ticketing platform
+            for guest complaints, service requests, issue assignment, and operational follow-up.
+            That experience gave me direct exposure to how Salesforce supports structured workflows
+            in live environments.
+          </p>
+
+          <div class="grid-3 mini-cards">
+            <div class="mini-card">
+              <p class="mini-label">Operational Use</p>
+              <p>Ticket intake, assignment, tracking, and service coordination using Salesforce.</p>
+            </div>
+            <div class="mini-card">
+              <p class="mini-label">Security Mindset</p>
+              <p>Incident awareness, structured follow-up, escalation thinking, and accurate record handling.</p>
+            </div>
+            <div class="mini-card">
+              <p class="mini-label">Role Target</p>
+              <p>Salesforce Administrator, CRM Administrator, and Salesforce Operations roles.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
